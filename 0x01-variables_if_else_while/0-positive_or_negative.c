@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /* more headers goes there */
 /**
 * main - determine if a random number is positive , negative or zero
