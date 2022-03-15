@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include "main.h"
+#include"main.h"
+#include"_putchar.c" 
 
 /**
  * main - Entry point
@@ -11,12 +11,12 @@
 
 int main(void)
 {
-	char t[8] = "_putchar";
+	char t[] = "_putchar";
 	int h;
 
 	for (h = 0; h < 8; ++h)
-		putchar(t[h]);
-	putchar('\n');
+		_putchar(t[h]);
+	_putchar('\n');
 
 	return (0);
 }
