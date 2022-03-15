@@ -1,17 +1,21 @@
-#include "main.h"
+#include"main.h"
 
 /**
- * Betty check main
- *0x02-functions_nested_loops
- **/
+ * main - Entry point
+ *
+ * Description: prints _putchar using putchar prototype
+ *
+ * Return: Always 0 (Success)
+*/
 
-int main()
+int main(void)
 {
-	char ch;
+	char str[] = "_putchar";
+	int ch;
 
-	for (ch = 'A'; ch <= 'Z'; ch++)
-	{
-		putchar(ch);
-	}
+	for (ch = 0; ch < 8; ++ch)
+		_putchar(str[ch]);
+	_putchar('\n');
+
 	return (0);
 }
