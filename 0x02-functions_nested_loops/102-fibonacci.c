@@ -1,4 +1,4 @@
-vi #include"main.h"
+#include"main.h"
 
 /**
  * main - Entry point
