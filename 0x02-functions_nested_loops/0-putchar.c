@@ -1,11 +1,12 @@
 #include <stdio.h>
+#include <main.h>
 
 /**
  * Betty check main
  *0x02-functions_nested_loops
  **/
 
-int main(void)
+int main()
 {
 	char ch;
 
